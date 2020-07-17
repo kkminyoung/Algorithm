@@ -1,7 +1,4 @@
-// 다이나믹 프로그래밍
-
-#include <iostream>
-#include <algorithm>
+//다이나믹 프로그래밍
 #include <string.h>
 #include <stdio.h>
 
@@ -11,14 +8,14 @@ int main(void) {
 
 	int n, k;
 	int coin[101];
-	int d[10001] = { 0, };
+	int d[10001] = { 0 };
 
 	// 동전개수, 합 입력
-	scanf("%d %d", n, k);
+	scanf("%d %d", &n, &k);
 
 	// 각 동전 금액 입력
-	for (int i = 0; i < n; i++) {
-		scanf("%d", coin[i]);
+	for (int i = 1; i <= n; i++) {
+		scanf("%d", &coin[i]);
 	}
 
 	// 동적계획법
