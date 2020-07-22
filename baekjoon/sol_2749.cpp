@@ -1,5 +1,4 @@
 // 피사노 주기를 이용한 피보나치수 문제
-// 2749
 
 #include<iostream>
 #include <stdio.h>
