@@ -6,8 +6,8 @@ using namespace std;
 int solution(int m, int n, vector<vector<int>> puddles) {
     int answer = 0;
     
-    int map[100][100]={0,}; // 지도
-    int ans[100][100]; // 정답
+    int map[101][101]={0,}; // 지도
+    int ans[101][101]; // 정답
     
     // 물웅덩이는 1로
     for(int i=0;i<puddles.size();i++){
